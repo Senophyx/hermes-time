@@ -1,0 +1,6 @@
+name: hermes-time
+version: "1.0"
+description: Simple Hermes plugin to inject current time into the prompt using the `pre_llm_call` hook.
+author: Senophyx
+hooks:
+  - pre_llm_call
