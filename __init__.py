@@ -17,7 +17,7 @@ def current_time():
 
         prompt = (
             "<current-time>\n"
-            "[Context: This is user's current time. Use this as your time awareness.]\n\n"
+            "[Context: The date and time below is the user's REAL current time. DO NOT guess or calculate your own.]\n\n"
             f"{weekday} {now.strftime('%Y-%m-%d')} {now.strftime('%H:%M')} {tz_label}\n"
             "</current-time>"
         )
